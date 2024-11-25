@@ -1,0 +1,43 @@
+/*Fonts*/
+@font-face {
+    font-family: questrial;
+    src: url("../fonts/Questrial-Regular.ttf");
+}
+@font-face {
+    font-family: raleway;
+    src: url("../fonts/Raleway-VariableFont_wght.ttf");
+}
+body{
+    font-family: questrial;
+    font-size: 11px;
+}
+.product-body-txt{
+    font-family: questrial;
+    font-size: 13px;
+}
+h2{
+    font-family: raleway;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.product-options{
+    font-family: raleway;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.product-tags{
+    font-family: raleway;
+    font-size: 10px;
+    color: #888888;
+    text-transform: uppercase;
+}
+.product-category{
+    font-family: questrial;
+    font-size: 11px;
+    color: #b8cd06;
+    text-transform: uppercase;
+}
+.footer-text-news{
+    font-family: raleway;
+    font-size: 30px;
+}
