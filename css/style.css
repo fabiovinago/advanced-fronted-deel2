@@ -31,6 +31,10 @@ h3{
     border-left: 1px solid lightgray;
     height: 40px;
 }
+/*Custom text tup header*/
+.custom-text{
+    text-align: left;
+}
 .breadcrumb-divider {
     color: gray;
     padding: 0px 10px;
@@ -55,10 +59,6 @@ h3{
     color: #888888;
     text-transform: uppercase;
 }
-/*Hero img margin*/
-
-/*Highlight color*/
-
 /*Footer*/
 .footer-text-news{
     font-family: poppinsbold;
@@ -74,15 +74,23 @@ h3{
     body {
         font-size: 13px;
     }
+
 }
 @media (max-width: 768px) {
     body {
         font-size: 16px;
     }
+    .custom-text {
+        text-align: center;
+    }
 }
+
 @media (max-width: 576px) {
     body {
         font-size: 14px;
+    }
+
+    .custom-text {
         text-align: center;
     }
 }
