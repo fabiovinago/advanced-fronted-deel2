@@ -26,6 +26,16 @@ h3{
     font-size: 16px;
     text-transform: uppercase;
 }
+/*Header lines*/
+.vertical-line {
+    border-left: 1px solid lightgray;
+    height: 40px;
+}
+.breadcrumb-divider {
+    color: gray;
+    padding: 0px 10px;
+    display: inline;
+}
 /*Left menu product options*/
 .product-category{
     font-family: poppinsregular;
@@ -45,6 +55,8 @@ h3{
     color: #888888;
     text-transform: uppercase;
 }
+/*Hero img margin*/
+
 /*Highlight color*/
 
 /*Footer*/
@@ -52,4 +64,25 @@ h3{
     font-family: poppinsbold;
     font-size: 30px;
 }
-/*Icons*/
+
+
+
+
+
+/*Media queries*/
+@media (max-width: 1024px) {
+    body {
+        font-size: 13px;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+        text-align: center;
+    }
+}
